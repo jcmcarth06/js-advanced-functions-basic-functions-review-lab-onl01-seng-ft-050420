@@ -29,5 +29,8 @@ const Calculator = {
 };
 
 function actionApplyer(integer, array) {
-
-}
+  array.forEach( func => {
+    integer = func(integer);
+  })
+  return integer;
+};
