@@ -11,4 +11,4 @@ function wrapAdjective(flair = '*') {
   return function(adjective = 'special') {
     return `You are ` + flair + adjective +flair + '!';
   }
-}
+};
