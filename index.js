@@ -29,5 +29,5 @@ const Calculator = {
 };
 
 function actionApplyer(integer, array) {
-  
+
 }
